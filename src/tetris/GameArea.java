@@ -212,8 +212,7 @@ public class GameArea extends JPanel {
 
                 r++;
 
-                playSound("/resources/clearline.wav");  // Replace "path/to/sound.wav" with the actual path to your sound file
-
+                playSound("/resources/clearline.wav");  
                 repaint();
             }
         }
